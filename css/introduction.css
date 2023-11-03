@@ -1,42 +1,24 @@
 @import "common.css";
 
-cap1 {
-  font-size: 120px;
-}
 
-h1 { /* Title: of Leaves */
+h1 {
   color: white;
   margin-top: 150px;
-  padding-top: 10%;
-  padding-left: 5%;
-  font-size: 100px;
-  text-align: left;
+  text-align: center;
   font-family: 'Times New Roman', Times, serif;
 }
 
-cap2 {
-  font-size: 55px;
-}
-
-h2 { /* Mark Z Danielewski */
-  padding-top: 10%;
-  padding-left: 5%;
+h2 {
   color: white;
-  text-align: left;
-  font-size: 40px;
+  text-align: center;
   font-family: 'Times New Roman', Times, serif;
 }
 
-h3 { /* Zampano Johnny Truant. */
+h3 {
   color: white;
-  text-align: left;
-  padding-left: 5%;
+  text-align: center;
   font-family: 'Times New Roman', Times, serif;
   line-height: 2;
-}
-
-names {
-  font-size: 30px;
 }
 
 p {
@@ -54,8 +36,4 @@ a {
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
-}
-
-footer {
-  padding-top: 10px;
 }

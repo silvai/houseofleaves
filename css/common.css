@@ -1,4 +1,12 @@
-@import "common.css";
+body {
+  background-color: black;
+  color: white;
+}
+
+house { /* House */
+  color: blue;
+  font-family: 'Times New Roman', Times, serif;
+}
 
 cap1 {
   font-size: 120px;
