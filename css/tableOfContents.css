@@ -1,0 +1,11 @@
+@import "common.css";
+h1 {
+  margin-top: 5%;
+  text-align: center;
+}
+
+contents {
+  padding-left: 10%;
+  text-align: left;
+  font-size: 30px;
+  }

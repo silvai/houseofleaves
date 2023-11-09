@@ -1,15 +1,11 @@
 body {
-  background-color: black;
+  background-color: rgb(20, 20, 20);
   color: white;
 }
 
 house { /* House */
   color: blue;
   font-family: 'Times New Roman', Times, serif;
-}
-
-cap1 {
-  font-size: 120px;
 }
 
 h1 { /* Title: of Leaves */
@@ -22,8 +18,8 @@ h1 { /* Title: of Leaves */
   font-family: 'Times New Roman', Times, serif;
 }
 
-cap2 {
-  font-size: 55px;
+cap1 {
+  font-size: 120px;
 }
 
 h2 { /* Mark Z Danielewski */
@@ -33,6 +29,10 @@ h2 { /* Mark Z Danielewski */
   text-align: left;
   font-size: 40px;
   font-family: 'Times New Roman', Times, serif;
+}
+
+cap2 {
+  font-size: 55px;
 }
 
 h3 { /* Zampano Johnny Truant. */
@@ -47,8 +47,30 @@ names {
   font-size: 30px;
 }
 
+/* Link styling */
+a {
+  border-block-end: 3px solid var(--border-color, transparent);
+  display: inline-block;
+  margin-block-end: 0.5rem;
+  margin-inline-end: 0.5rem;
+  padding: 1rem;
+  padding-left: 1rem;
+  text-decoration: none;
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: right;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  outline: 1px solid white transparent;
+}
+
+/* Change the border-color on :hover and :focus */
+a:where(:hover, :focus) {
+  --border-color: white;
+}
+
 p {
-  padding-top: 50%;
   color: white;
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
@@ -56,14 +78,22 @@ p {
   line-height: 2;
 }
 
-a {
-  color: blue;
-  margin-top: 15px;
-  text-align: center;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 20px;
-}
-
 footer {
   padding-top: 10px;
+}
+
+nav {
+  background-color: rgb(54, 54, 54);
+}
+
+/* Font Sections */
+
+johnny {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* TODO: This currently defaults to Georgia because bookman has
+not been downloaded and added*/
+editors {
+  font-family: "Bookman Old Style", Georgia, serif;
 }
