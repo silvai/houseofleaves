@@ -4,8 +4,22 @@ h1 {
   text-align: center;
 }
 
-contents {
+.contents {
+  color: white;
+  text-decoration: none;
   padding-left: 10%;
   text-align: left;
   font-size: 30px;
+  }
+
+  .contents a {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .contents a:hover:focus {
+    background-color: rgb(20, 20, 20);
   }
