@@ -1,6 +1,60 @@
 @import "common.css";
 
-h1 {
-  text-decoration: underline;
-  text-align: center;
+h2 {
+  margin-top: 20%;
+}
+
+.quote {
+  margin-top: 5%;
+  margin-right: 45%;
+  text-align: right;
+}
+
+p {
+  text-align: left;
+}
+
+.zampano {
+  margin: 5% 15%;
+}
+
+.anno {
+  display: inline-block;
+}
+
+#p1 {
+  display: inline;
+}
+
+.anno a {
+  font: inherit;
+  line-height: inherit;
+  text-decoration: none;
+  display: inline;
+}
+
+#one::-webkit-scrollbar, #two::-webkit-scrollbar, #three::-webkit-scrollbar {
+  display: none;
+}
+
+#one, #two, #three {
+  background-color: rgb(37,37,37);
+  display: none;
+  float: right;
+  max-width: 500px;
+  max-height: 200px;
+  overflow: scroll;
+  color: white;
+}
+
+.anno:hover #one, .anno:hover #two, 
+.anno:hover #three {
+  position: absolute;
+  display: inline-block;
+}
+
+
+.annotations {
+  margin: 2%;
+  padding: 20px;
 }

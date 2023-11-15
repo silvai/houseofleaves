@@ -1,98 +1,41 @@
+@import "nav.css";
+
 body {
   background-color: rgb(20, 20, 20);
   color: white;
 }
 
-house { /* House */
-  color: blue;
+h1 {
+  color: white;
+  margin-top: 150px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-home { /* House */
+h2 {
+  color: white;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 2;
+}
+
+house { /* House */
+  color: rgb(8,39,245);
+}
+
+home { /* Home */
   color: rgb(0, 243, 32);
 }
 
 names {
   font-size: 30px;
 }
-
-/* Link styling  Section*/
-
-.nav {
-  overflow: hidden;
-  font-size: 20px;
-  background-color: rgb(37, 37, 37);
-  padding: 14px;
-}
-
-/* Change the border-color on :hover and :focus */
-a:where(:hover, :focus) {
-  --border-color: white;
-}
-
-.nav a {
-  float:left;
-  margin-left: 1.5rem;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-}
-
-.nav a:hover, .nav .dropdown:hover .dropbtn {
-  background-color: rgb(0, 0, 0);
-}
-
-.dropdown .dropbtn {
-  overflow: hidden;
-  font-size: inherit;
-  border: none;
-  outline: none;
-  color: white;
-  padding: inherit;
-  background-color: inherit;
-  font-family: inherit;
-  margin-left: 1.5rem;
-}
-
-.dropdown-content {
-  display: none;
-  margin-left: 5rem;
-  position: absolute;
-  background-color: rgb(37, 37, 37);
-  min-width: 160px;
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: white;
-  padding: 12px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: rgb(0, 0, 0);
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.prevNext {
-  align-items: baseline;
-}
-
-.prevNext a {
-  margin-left: 10%;
-}
-
-.prevNext a {
-  text-align: right;
-  padding-right: 10%;
-}
-
-/* End Link Styling section */
 
 p {
   color: white;
@@ -106,26 +49,38 @@ footer {
   padding-top: 10px;
 }
 
-
-
-
 /* Font Sections */
 
 /* This is currently the default, it is not specified */
-zampano {
+.zampano {
   font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
 }
 
-johnny {
+.johnny {
   font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+
+.johnny h2{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+
+.johnny p{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
 }
 
 /* TODO: This currently defaults to Georgia because bookman has
 not been downloaded and added*/
 editors {
   font-family: "Bookman Old Style", Georgia, serif;
+  font-size: 20px;
 }
 
 johnnysMother {
   font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
 }
+
