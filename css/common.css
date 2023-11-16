@@ -74,7 +74,7 @@ footer {
 
 /* TODO: This currently defaults to Georgia because bookman has
 not been downloaded and added*/
-editors {
+.editors {
   font-family: "Bookman Old Style", Georgia, serif;
   font-size: 20px;
 }

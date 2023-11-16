@@ -1,0 +1,50 @@
+@import "common.css";
+@import "theNavidsonRecord.css";
+
+#one::-webkit-scrollbar {
+  display: none;
+}
+ 
+/*We are using individual sections for the pop-ups so that 
+we can navigate to them in the annotations at the bottom
+for closely grouped annotations in the future we should reuse
+sections*/
+/*For II this represents the annotation group number*/
+#one {
+  text-decoration: none;
+  position: absolute;
+  background-color: rgb(37,37,37);
+  display: none;
+  float: right;
+  max-width: 500px;
+  max-height: 200px;
+  overflow: scroll;
+  color: white;
+  padding: 1rem;
+}
+
+/* Used for nested annotations */
+#four {
+  max-width: 700px;
+  max-height: 200px;
+  float: left;
+}
+
+.anno:hover #one {
+  position: absolute;
+  display: inline-block;
+}
+
+#annotations {
+  margin: 2%;
+  padding: 20px;
+}
+
+#annotations a {
+  text-decoration: none;
+  color: white;
+}
+
+#aFive .zampano {
+  margin: auto;
+}

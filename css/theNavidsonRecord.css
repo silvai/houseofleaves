@@ -4,6 +4,7 @@ h2 {
   margin-top: 20%;
 }
 
+
 .quote {
   margin-top: 5%;
   margin-right: 45%;
@@ -30,14 +31,25 @@ p {
   font: inherit;
   line-height: inherit;
   text-decoration: none;
+  color: white;
   display: inline;
 }
 
-#one::-webkit-scrollbar, #two::-webkit-scrollbar, #three::-webkit-scrollbar {
+#one::-webkit-scrollbar, #two::-webkit-scrollbar, #three::-webkit-scrollbar,
+#four::-webkit-scrollbar, #five::-webkit-scrollbar, #six::-webkit-scrollbar,
+#seven::-webkit-scrollbar, #eight::-webkit-scrollbar, #nine::-webkit-scrollbar {
   display: none;
 }
-
-#one, #two, #three {
+ 
+/*We are using individual sections for the pop-ups so that 
+we can navigate to them in the annotations at the bottom
+for closely grouped annotations in the future we should reuse
+sections*/
+#one, #two, #three,
+#four, #five, #six,
+#seven, #eight, #nine {
+  text-decoration: none;
+  position: absolute;
   background-color: rgb(37,37,37);
   display: none;
   float: right;
@@ -45,16 +57,36 @@ p {
   max-height: 200px;
   overflow: scroll;
   color: white;
+  padding: 1rem;
+}
+
+#four {
+  max-width: 700px;
+  max-height: 200px;
+  float: left;
 }
 
 .anno:hover #one, .anno:hover #two, 
-.anno:hover #three {
+.anno:hover #three, .anno:hover #four,
+.anno:hover #five, .anno:hover #six,
+.anno:hover #seven, .anno:hover #eight,
+.anno:hover #nine {
   position: absolute;
   display: inline-block;
 }
 
 
-.annotations {
+
+#annotations {
   margin: 2%;
   padding: 20px;
+}
+
+#annotations a {
+  text-decoration: none;
+  color: white;
+}
+
+#aFive .zampano {
+  margin: auto;
 }
