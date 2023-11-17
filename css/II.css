@@ -1,10 +1,15 @@
 @import "common.css";
 @import "theNavidsonRecord.css";
 
-#one::-webkit-scrollbar {
+body {
+  background-color: rgb(25, 25, 25);
+}
+
+#one::-webkit-scrollbar{
   display: none;
 }
- 
+
+
 /*We are using individual sections for the pop-ups so that 
 we can navigate to them in the annotations at the bottom
 for closely grouped annotations in the future we should reuse
@@ -25,8 +30,9 @@ sections*/
 
 /* Used for nested annotations */
 #four {
+  overflow: scroll;
   max-width: 700px;
-  max-height: 200px;
+  max-height: 400px;
   float: left;
 }
 
